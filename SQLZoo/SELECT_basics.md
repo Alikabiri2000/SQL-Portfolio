@@ -20,4 +20,4 @@ FROM world
 WHERE area BETWEEN 200000 AND 250000;
 ```
 
-wfw
+![Problem1 result](Images/SQL/SQLZoo/SELECt basics 1.jpg)
