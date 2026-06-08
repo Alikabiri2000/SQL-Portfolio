@@ -1,3 +1,4 @@
+```sql
 -- Problem1: Modify it to show the population of Germany
 
 SELECT population
@@ -16,5 +17,7 @@ WHERE name IN ('Sweden', 'Norway', 'Denmark');
 
 SELECT name, area
 FROM world
-WHERE area BETWEEN 200000 AND 250000
+WHERE area BETWEEN 200000 AND 250000;
+```
 
+wfw
