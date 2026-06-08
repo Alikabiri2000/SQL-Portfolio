@@ -5,6 +5,10 @@ SELECT population
 FROM world
 WHERE name='Germany';
 
+<p>Problem1 result</p>
+
+![Problem1 result](/Images/SQL/SQLZoo/SELECT_basics_1.jpg)
+
 
 -- Problem2: Show the name and the population for 'Sweden', 'Norway' and 'Denmark'.
 
@@ -23,6 +27,3 @@ WHERE area BETWEEN 200000 AND 250000;
 <p>Problem1 result</p>
 
 ![Problem1 result](/Images/SQL/SQLZoo/SELECT_basics_1.jpg)
-
-
-<p>Problem2 result</p>
