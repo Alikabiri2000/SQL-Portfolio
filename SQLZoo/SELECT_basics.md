@@ -23,4 +23,6 @@ WHERE area BETWEEN 200000 AND 250000;
 <p>Problem1 result</p>
 
 ![Problem1 result](/Images/SQL/SQLZoo/SELECT_basics_1.jpg)
-<p>Problem1 result</p>
+
+
+<p>Problem2 result</p>
