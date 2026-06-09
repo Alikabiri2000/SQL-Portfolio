@@ -24,3 +24,6 @@ WHERE area BETWEEN 200000 AND 250000;
 
 <p>P3 result</p>
 <img src="/Images/SQL/SQLZoo/SELECT_basics_3.jpg">
+
+<p>SELECT basics quiz result</p>
+<img src="/Images/SQL/SQLZoo/SELECT_basics_quiz.jpg">
