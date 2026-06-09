@@ -14,10 +14,12 @@ SELECT name, area
 FROM world
 WHERE area BETWEEN 200000 AND 250000;
 ```
-<p>P1 result</p>
+<p>
+  P1 result</p>
 <img src="/Images/SQL/SQLZoo/SELECT_basics_1.jpg">
 
-<p>P2 result</p>
+<p>
+  P2 result</p>
 <img src="/Images/SQL/SQLZoo/SELECT_basics_2.jpg">
 
 <p>P3 result</p>
