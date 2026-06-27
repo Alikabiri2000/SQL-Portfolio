@@ -81,56 +81,56 @@ AND name NOT LIKE ("% %");
 ```
 <p>
   P1 result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_1.png">
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_1.png">
 
 <p>
-  P1 result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_2.png">
+  P2 result</p>
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_2.png">
 
 <p>
-  P1 result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_3.png">
+  P3 result</p>
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_3.png">
 
 <p>
-  P1 result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_4.png">
+  P4 result</p>
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_4.png">
 
 <p>
-  P1 result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_5.png">
+  P5 result</p>
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_5.png">
 
 <p>
-  P1 result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_6.png">
+  P6 result</p>
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_6.png">
 
 <p>
-  P1 result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_7.png">
+  P7 result</p>
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_7.png">
 
 <p>
-  P1 result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_8.png">
+  P8 result</p>
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_8.png">
 
 <p>
-  P1 result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_9.png">
+  P9 result</p>
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_9.png">
 
 <p>
-  P1 result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_10.png">
+  P10 result</p>
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_10.png">
 
 <p>
-  P1 result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_11.png">
+  P11 result</p>
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_11.png">
 
 <p>
-  P1 result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_12.png">
+  P12 result</p>
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_12.png">
 
 <p>
-  P1 result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_13.png">
+  P13 result</p>
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_13.png">
 
 <p>
   SELECT from world quiz result</p>
-<img src="/Images/SQL/1-SQLZoo/1-SELECT_from_world_quiz.png">
+<img src="/Images/SQL/1-SQLZoo/2-SELECT_from_world_quiz.png">
