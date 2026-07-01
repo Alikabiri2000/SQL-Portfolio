@@ -1,72 +1,31 @@
-1- SELECT name
+1- SELECT SUM(population)
+FROM world;
+
+2- SELECT DISTINCT (continent)
+FROM world;
+
+3- SELECT SUM(gdp) AS "Africa gdp"
 FROM world
-WHERE population > (
-  SELECT population
-  FROM world
-  WHERE name = "russia");
+WHERE continent = "africa";
 
-2- SELECT name
+4- SELECT COUNT(DISTINCT name)
 FROM world
-WHERE gdp/population > (
-  SELECT gdp/population
-  FROM world
-  WHERE name = "united kingdom")
-AND continent = "europe";
+WHERE area >= 1000000;
 
-3- SELECT name, continent
+5- SELECT SUM(population)
 FROM world
-WHERE continent = (
-  SELECT continent
-  FROM world
-  WHERE name = "argentina")
-OR continent = (
-  SELECT continent
-  FROM world
-  WHERE name = "australia")
-ORDER BY name;
+WHERE name IN ('Estonia', 'Latvia', 'Lithuania');
 
-4- SELECT name, population
+6- SELECT continent, COUNT(DISTINCT name) AS "number of countries"
 FROM world
-WHERE population > (SELECT population FROM world
-WHERE name = "United Kingdom") 
-AND population < (SELECT population FROM world
-WHERE name = "Germany");
+GROUP BY continent;
 
-5- SELECT name, CONCAT(ROUND((population * 100/(SELECT population
-                           FROM world
-                           WHERE name = "germany"))), "%")
-                           AS "population (perc. of germany)"
+7- SELECT continent, COUNT(DISTINCT name) AS "number of countries"
 FROM world
-WHERE continent = "europe";
+WHERE population >= 10000000
+GROUP BY continent;
 
-6- SELECT name
+8- SELECT continent
 FROM world
-WHERE gdp > (SELECT MAX(gdp)
-             FROM world
-             WHERE continent = "europe");
-
-7- SELECT continent, name, area
-FROM world x
-WHERE area = (SELECT MAX(area)
-              FROM world y
-              WHERE x.continent = y.continent);
-
-8- SELECT x.continent, x.name
-FROM world x
-WHERE x.name = (SELECT MIN(y.name)
-                FROM world y
-                WHERE x.continent = y.continent);
-
-9- SELECT name, continent, population
-FROM world
-WHERE continent IN (SELECT continent
-                    FROM world
-                    GROUP BY continent
-                    HAVING MAX(population) <= 25000000);
-
-10- SELECT name, continent
-FROM world x
-WHERE population / 3 > ALL (SELECT population
-                            FROM world y
-                            WHERE y.continent = x.continent
-                            AND y.name <> x.name);
+GROUP BY continent
+HAVING SUM(population) >= 100000000;
